@@ -66,10 +66,16 @@ Expected final line:
 ALL SCIENTIFIC RELEASE GATES PASSED.
 ```
 
+## Repository
+
+Source repository: https://github.com/fatihuludag-lab/beyond-exact-match-error-geometry
+
 ## Licensing
 
 Author-written code is released under MIT. Author-generated derived data are intended for reuse under CC BY 4.0 where the author has the right to do so. Third-party materials retain their original licenses.
 
 ## Citation
 
-GitHub URL and Zenodo DOI will be inserted after public release.
+GitHub repository: https://github.com/fatihuludag-lab/beyond-exact-match-error-geometry
+
+The archival Zenodo DOI will be inserted after the v1.0.0 release is archived.
