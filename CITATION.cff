@@ -5,7 +5,15 @@ type: dataset
 authors:
   - family-names: "Uludağ"
     given-names: "Fatih"
+    affiliation: "Van Yüzüncü Yıl University"
 version: "1.0.0"
 date-released: "2026-10-12"
 repository-code: "https://github.com/fatihuludag-lab/beyond-exact-match-error-geometry"
-doi: "REPLACE_WITH_ZENODO_DOI"
+license: MIT
+keywords:
+  - tandem mass spectrometry
+  - molecular generation
+  - cheminformatics
+  - error geometry
+  - MCES
+  - model evaluation
