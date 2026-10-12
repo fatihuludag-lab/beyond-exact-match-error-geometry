@@ -1,0 +1,19 @@
+﻿{
+  "model": "DiffMS-K1",
+  "panel": "MSG-EG358-COMMON-SUPPORT-CONFIRM-v01",
+  "canonical_run": "diffms_eg358_confirm_k1_nw0",
+  "technical_deviation": {
+    "initial_num_workers": 1,
+    "initial_run_status": "stalled after first evaluation batch",
+    "initial_completed_predictions": 128,
+    "final_num_workers": 0,
+    "final_pin_memory": false,
+    "final_completed_predictions": 358
+  },
+  "reproducibility_audit": {
+    "truth_same_first128": 128,
+    "prediction_same_first128": 0,
+    "interpretation": "DiffMS prediction realization was not reproducible across the two executions."
+  },
+  "analysis_policy": "Only the complete num_workers=0 run is used in confirmatory analyses. The partial run is retained solely as a provenance artifact."
+}

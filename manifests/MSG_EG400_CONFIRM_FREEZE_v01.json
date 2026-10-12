@@ -1,0 +1,19 @@
+{
+  "panel": "MSG-EG400-CONFIRM-v01",
+  "status": "FROZEN_CONFIRMATORY",
+  "parent_panel": "MSG-EG500-PREFREEZE-v01",
+  "excluded_development_panel": "MSG-EG100-DEV-v01",
+  "n": 400,
+  "overlap_with_EG100": 0,
+  "manifest_sha256": "c644b79ba80d36661338bf8224e185b7b47cc2c34652478e7eb03c85e4405bde",
+  "primary_endpoints": {
+    "RQ2": "paired MCES difference on common-valid-wrong cases",
+    "RQ4": "parent-level median real MCES minus median synthetic MCES"
+  },
+  "secondary_endpoints": [
+    "paired sign test",
+    "median MCES difference",
+    "Morgan Tanimoto",
+    "same-formula sensitivity"
+  ]
+}

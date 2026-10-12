@@ -1,0 +1,16 @@
+﻿{
+  "model": "FRIGID-base",
+  "operating_point": "FM1",
+  "panel": "MSG-EG358-COMMON-SUPPORT-CONFIRM-v01",
+  "n": 358,
+  "formula_matches_required": 1,
+  "max_attempts": 100,
+  "batch_size": 4,
+  "temperature": 1.0,
+  "randomness": 10.0,
+  "fp_threshold": 0.187,
+  "token_model": "best_ngboost_SSD_MSG.joblib",
+  "mist_checkpoint": "mist_msg.pt",
+  "dlm_checkpoint": "DLM.ckpt",
+  "analysis_policy": "Operating point identical to EG100 development experiment; no post-outcome tuning."
+}

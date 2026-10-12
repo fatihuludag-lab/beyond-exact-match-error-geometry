@@ -1,0 +1,8 @@
+*.csv text eol=lf
+*.tsv text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.parquet binary
+*.joblib binary

@@ -1,0 +1,27 @@
+﻿diff --git a/src/spec2mol_main.py b/src/spec2mol_main.py
+index 84a3370..2f679de 100644
+--- a/src/spec2mol_main.py
++++ b/src/spec2mol_main.py
+@@ -1,4 +1,4 @@
+-import os
++´╗┐import os
+ import sys
+ import pathlib
+ import warnings
+@@ -271,7 +271,10 @@ def main(cfg: DictConfig):
+         logging.info(f"Loading weights from {cfg.general.load_weights}")
+         model = load_weights(model, cfg.general.load_weights)
+ 
+-    if not cfg.general.test_only:
++    if cfg.general.load_weights is not None and os.environ.get("DIFFMS_EVAL_ONLY") == "1":
++        logging.info("DIFFMS_EVAL_ONLY=1: evaluating pretrained weights without training")
++        trainer.test(model, datamodule=datamodule)
++    elif not cfg.general.test_only:
+         trainer.fit(model, datamodule=datamodule, ckpt_path=cfg.general.resume)
+         if cfg.general.name not in ['debug', 'test']:
+             trainer.test(model, datamodule=datamodule, ckpt_path=cfg.general.checkpoint_strategy)
+@@ -293,3 +296,4 @@ def main(cfg: DictConfig):
+ 
+ if __name__ == '__main__':
+     main()
++

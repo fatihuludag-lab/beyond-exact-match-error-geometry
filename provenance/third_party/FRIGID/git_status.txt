@@ -1,0 +1,11 @@
+﻿ M pyproject.toml
+?? audit_frigid_checkpoints.py
+?? audit_frigid_token_length.py
+?? check_frigid_env.py
+?? data/ssd_frigid_pilot5/
+?? frigid_smoke1_ssd.csv
+?? make_frigid_ssd_pilot5.py
+?? prepare_frigid_pilot5_for_ssd.py
+?? pretrained_unpack/
+?? pyproject.toml.before_transformers_fix
+?? train_ssd_msg_token_model.py

@@ -1,0 +1,51 @@
+﻿{
+  "master_panel": "MSG-EG400-CONFIRM-v01",
+  "master_panel_n": 400,
+  "master_manifest_sha256": "c644b79ba80d36661338bf8224e185b7b47cc2c34652478e7eb03c85e4405bde",
+
+  "primary_confirmatory_population": "MSG-EG358-COMMON-SUPPORT-CONFIRM-v01",
+  "primary_confirmatory_n": 358,
+
+  "compatibility_exclusion": {
+    "n": 42,
+    "ionization": "[M+Na]+",
+    "reason": "Outside the supported ionization/adduct domain of MS2Forge used in the three-model comparison.",
+    "selection_basis": "Input metadata only",
+    "outcomes_inspected_before_filter": false
+  },
+
+  "models": {
+    "DiffMS": "K1",
+    "FRIGID": "base@FM1",
+    "MS2Forge": "K1,T20"
+  },
+
+  "RQ2_primary": {
+    "population": "pairwise common-task-valid-wrong cases within EG358",
+    "endpoint": "paired MCES difference",
+    "inference": "paired bootstrap 95% CI"
+  },
+
+  "RQ2_secondary": [
+    "exact sign test",
+    "median paired MCES difference",
+    "Morgan Tanimoto",
+    "both-same-formula sensitivity"
+  ],
+
+  "RQ4_primary": {
+    "population": "same-formula wrong predictions within EG358",
+    "inferential_unit": "parent molecule",
+    "endpoint": "median(real MCES per parent) - median(synthetic MCES per parent)",
+    "inference": "parent-level paired bootstrap 95% CI"
+  },
+
+  "RQ4_secondary": [
+    "exact sign test",
+    "Morgan Tanimoto",
+    "generator-specific sensitivity",
+    "corruption-family sensitivity"
+  ],
+
+  "analysis_policy": "No endpoint, eligibility, model operating point, or direction changes after confirmatory inference begins."
+}

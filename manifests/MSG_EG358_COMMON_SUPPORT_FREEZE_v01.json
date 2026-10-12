@@ -1,0 +1,23 @@
+{
+  "panel": "MSG-EG358-COMMON-SUPPORT-CONFIRM-v01",
+  "status": "FROZEN_CONFIRMATORY_COMMON_SUPPORT",
+  "master_confirmatory_panel": "MSG-EG400-CONFIRM-v01",
+  "master_manifest_sha256": "c644b79ba80d36661338bf8224e185b7b47cc2c34652478e7eb03c85e4405bde",
+  "n_master": 400,
+  "n_confirmatory": 358,
+  "n_excluded": 42,
+  "supported_ionization": [
+    "[M+H]+",
+    "[M-H]-"
+  ],
+  "observed_supported_counts": {
+    "[M+H]+": 358
+  },
+  "excluded_counts": {
+    "[M+Na]+": 42
+  },
+  "exclusion_rule": "Ionization/adduct unsupported by at least one model in the three-model confirmatory comparison.",
+  "selection_basis": "Input metadata only; no confirmatory model outputs inspected.",
+  "timing": "Compatibility refinement performed before confirmatory model inference.",
+  "manifest_sha256": "551f95c6ba90daada03475f25e555d5ed793099c57282cc837bf1344fa2c0246"
+}
