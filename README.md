@@ -78,4 +78,4 @@ Author-written code is released under MIT. Author-generated derived data are int
 
 GitHub repository: https://github.com/fatihuludag-lab/beyond-exact-match-error-geometry
 
-The archival Zenodo DOI will be inserted after the v1.0.0 release is archived.
+Archived release: https://doi.org/10.5281/zenodo.23325150
