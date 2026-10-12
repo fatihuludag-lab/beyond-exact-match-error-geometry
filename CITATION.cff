@@ -9,6 +9,8 @@ authors:
 version: "1.0.0"
 date-released: "2026-10-12"
 repository-code: "https://github.com/fatihuludag-lab/beyond-exact-match-error-geometry"
+doi: "10.5281/zenodo.23325150"
+url: "https://doi.org/10.5281/zenodo.23325150"
 license: MIT
 abstract: "Reproducibility package containing frozen evaluation manifests, harmonized predictions from DiffMS, FRIGID, and MS2Forge, exact MCES outputs, verified synthetic molecular corruptions, final statistical tables, and provenance artifacts supporting the study Beyond Exact Match: Error Geometry in Molecular Generation from Tandem Mass Spectra."
 keywords:
