@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the associated article and archived dataset/software release."
 title: "Data and Code for Beyond Exact Match: Error Geometry in Molecular Generation from Tandem Mass Spectra"
-type: dataset
+type: software
 authors:
   - family-names: "Uludağ"
     given-names: "Fatih"
@@ -10,6 +10,7 @@ version: "1.0.0"
 date-released: "2026-10-12"
 repository-code: "https://github.com/fatihuludag-lab/beyond-exact-match-error-geometry"
 license: MIT
+abstract: "Reproducibility package containing frozen evaluation manifests, harmonized predictions from DiffMS, FRIGID, and MS2Forge, exact MCES outputs, verified synthetic molecular corruptions, final statistical tables, and provenance artifacts supporting the study Beyond Exact Match: Error Geometry in Molecular Generation from Tandem Mass Spectra."
 keywords:
   - tandem mass spectrometry
   - molecular generation
